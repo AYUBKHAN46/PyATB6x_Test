@@ -2,7 +2,7 @@
 # Learning Boolean Expressions in Python
 print('I am inside booleanexp.py')
 # Boolean exp - that results in True or False
-print(10 ＞ 20)
+print(10 > 20)
 
 # comparison operators - results in True or False
 # ＞
@@ -14,8 +14,8 @@ print(10 ＞ 20)
 
 x = 10
 y = 20
-print(x ＞ y)
-print(x ＜ y)
+print(x > y)
+print(x < y)
 print(x == y)
 print(x != y)
 
@@ -29,7 +29,7 @@ x = 10
 y = 20
 z = 30
 
-print(x ＜ y or z ＞ y)
-print(not(x＞y))
+print(x < y or z > y)
+print(not(x>y))
 
 
